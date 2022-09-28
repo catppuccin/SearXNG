@@ -143,16 +143,16 @@
     if (darktheme=="Mocha")     { colourscheme(Mocha) }
   }
 
-    :root.theme-dark {
+    :root.theme-dark, :root.theme-light {
         --color-base-font: var(--ctp-text);
         --color-base-background: var(--ctp-base);
         --color-base-background-mobile: var(--ctp-base);
         --color-url-font: var(--ctp-lavender);
         --color-url-visited-font: var(--ctp-mauve);
-        --color-header-background: var(--cpt-mantle);
-        --color-header-border: var(--cpt-mantle);
-        --color-footer-background: var(--cpt-mantle);
-        --color-footer-border: var(--cpt-mantle);
+        --color-header-background: var(--ctp-mantle);
+        --color-header-border: var(--ctp-mantle);
+        --color-footer-background: var(--ctp-mantle);
+        --color-footer-border: var(--ctp-mantle);
         --color-sidebar-border: var(--ctp-base);
         --color-sidebar-font: var(--ctp-text);
         --color-sidebar-background: var(--ctp-base);
@@ -182,8 +182,8 @@
         --color-autocomplete-background: var(--ctp-surface0);
         --color-autocomplete-background-hover: var(--ctp-surface1);
         --color-answer-font: var(--ctp-text);
-        --color-answer-background: var(--cpt-mantle);
-        --color-result-background: var(--cpt-mantle);
+        --color-answer-background: var(--ctp-mantle);
+        --color-result-background: var(--ctp-mantle);
         --color-result-border: var(--ctp-base);
         --color-result-url-font: var(--ctp-subtext1);
         --color-result-vim-selected: var(--ctp-surface0);
@@ -205,16 +205,16 @@
         --color-result-detail-loader-borderleft: var(--ctp-crust);
         --color-result-image-span-font: var(--ctp-text);
         --color-result-image-span-font-selected: var(--ctp-base);
-        --color-result-image-background: var(--cpt-mantle);
+        --color-result-image-background: var(--ctp-mantle);
         --color-settings-tr-hover: var(--ctp-surface0);
         --color-settings-engine-description-font: var(--ctp-text);
         --color-settings-engine-group-background: var(--ctp-surface0);
         --color-toolkit-badge-font: var(--ctp-text);
         --color-toolkit-badge-background: var(--ctp-surface0);
         --color-toolkit-kbd-font: var(--ctp-text);
-        --color-toolkit-kbd-background: var(--cpt-mantle);
-        --color-toolkit-dialog-border: var(--cpt-mantle);
-        --color-toolkit-dialog-background: var(--cpt-mantle);
+        --color-toolkit-kbd-background: var(--ctp-mantle);
+        --color-toolkit-dialog-border: var(--ctp-mantle);
+        --color-toolkit-dialog-background: var(--ctp-mantle);
         --color-toolkit-tabs-label-border: var(--ctp-base);
         --color-toolkit-tabs-section-border: var(--ctp-base);
         --color-toolkit-select-background: var(--ctp-surface0);
@@ -224,18 +224,18 @@
         --color-toolkit-checkbox-onoff-off-background: var(--ctp-surface0);
         --color-toolkit-checkbox-onoff-on-background: var(--ctp-surface0);
         --color-toolkit-checkbox-onoff-on-mark-background: var(--ctp-green);
-        --color-toolkit-checkbox-onoff-on-mark-color: var(--cpt-mantle);
+        --color-toolkit-checkbox-onoff-on-mark-color: var(--ctp-mantle);
         --color-toolkit-checkbox-onoff-off-mark-background: var(--ctp-red);
-        --color-toolkit-checkbox-onoff-off-mark-color: var(--cpt-mantle);
+        --color-toolkit-checkbox-onoff-off-mark-color: var(--ctp-mantle);
         --color-toolkit-checkbox-label-background: var(--ctp-base);
-        --color-toolkit-checkbox-label-border: var(--cpt-mantle);
+        --color-toolkit-checkbox-label-border: var(--ctp-mantle);
         --color-toolkit-checkbox-input-border: var(--ctp-blue);
         --color-toolkit-engine-tooltip-border: var(--ctp-surface0);
         --color-toolkit-engine-tooltip-background: var(--ctp-surface0);
         --color-toolkit-loader-border: rgba(255, 255, 255, 0.2);
         --color-toolkit-loader-borderleft: var(--ctp-crust);
         --color-doc-code: var(--ctp-rosewater);
-        --color-doc-code-background: var(--cpt-mantle);
+        --color-doc-code-background: var(--ctp-mantle);
     }
     article.result {
         background-color: var(--color-result-background);
