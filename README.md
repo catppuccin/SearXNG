@@ -20,7 +20,7 @@
 #### Stylus
 1. Install Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
 2. Enable CSP Patching from Stylus Settings > Advanced.
-3. [Click here to install.](https://github.com/catppuccin/searxng/raw/main/catppuccin.user.css)
+3. [Click here to install.](https://github.com/catppuccin/SearXNG/raw/main/catppuccin.user.css)
 4. Enjoy!. 
 
 ## 💝 Thanks to
