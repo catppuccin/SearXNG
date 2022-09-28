@@ -1,0 +1,117 @@
+/* ==UserStyle==
+@name           9/28/2022, 3:38:33 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("search.thewatcherpi.de") {
+    /* Insert code here... */
+    :root.theme-dark {
+        --color-base-font: #cdd6f4;
+        --color-base-font-rgb: 205, 214, 244;
+        --color-base-background: #1e1e2e;
+        --color-base-background-mobile: #1e1e2e;
+        --color-url-font: #b4befe;
+        --color-url-visited-font: #cba6f7;
+        --color-header-background: #181825;
+        --color-header-border: #181825;
+        --color-footer-background: #181825;
+        --color-footer-border: #181825;
+        --color-sidebar-border: #1e1e2e;
+        --color-sidebar-font: #cdd6f4;
+        --color-sidebar-background: #1e1e2e;
+        --color-backtotop-font: #bac2de;
+        --color-backtotop-border: #313244;
+        --color-backtotop-background: #313244;
+        --color-btn-background: #b4befe;
+        --color-btn-font: #1e1e2e;
+        --color-show-btn-background: #b4befe;
+        --color-show-btn-font: #1e1e2e;
+        --color-search-border: #313244;
+        --color-search-shadow: 0 2px 8px rgba(34, 38, 46, 0.25);
+        --color-search-background: #313244;
+        --color-search-font: #cdd6f4;
+        --color-search-background-hover: #b4befe;
+        --color-error: #f55b5b;
+        --color-error-background: #313244;
+        --color-warning: #f9e2af;
+        --color-warning-background: #313244;
+        --color-success: #a6e3a1;
+        --color-success-background: #313244;
+        --color-categories-item-selected-font: #cdd6f4;
+        --color-categories-item-border-selected: #cba6f7;
+        --color-autocomplete-font: #bac2de;
+        --color-autocomplete-border: #313244;
+        --color-autocomplete-shadow: 0 2px 8px rgba(34, 38, 46, 0.25);
+        --color-autocomplete-background: #313244;
+        --color-autocomplete-background-hover: #45475a;
+        --color-answer-font: #cdd6f4;
+        --color-answer-background: #181825;
+        --color-result-background: #181825;
+        --color-result-border: #1e1e2e;
+        --color-result-url-font: #bac2de;
+        --color-result-vim-selected: #313244;
+        --color-result-vim-arrow: #b4befe;
+        --color-result-description-highlight-font: #fff;
+        --color-result-link-font: #b4befe;
+        --color-result-link-font-highlight: #b4befe;
+        --color-result-link-visited-font: #cba6f7;
+        --color-result-publishdate-font: #585b70;
+        --color-result-engines-font: #585b70;
+        --color-result-search-url-border: #585b70;
+        --color-result-search-url-font: #cdd6f4;
+        --color-result-detail-font: #cdd6f4;
+        --color-result-detail-label-font: #45475a;
+        --color-result-detail-background: #1e1e2e;
+        --color-result-detail-hr: #1e1e2e; 
+        --color-result-detail-link: #b4befe;
+        --color-result-detail-loader-border: rgba(255, 255, 255, 0.2);
+        --color-result-detail-loader-borderleft: rgba(0, 0, 0, 0);
+        --color-result-image-span-font: #cdd6f4;
+        --color-result-image-span-font-selected: #1e1e2e;
+        --color-result-image-background: #181825;
+        --color-settings-tr-hover: #313244;
+        --color-settings-engine-description-font: #cdd6f4;
+        --color-settings-engine-group-background: #313244;
+        --color-toolkit-badge-font: #cdd6f4;
+        --color-toolkit-badge-background: #313244;
+        --color-toolkit-kbd-font: #cdd6f4;
+        --color-toolkit-kbd-background: #181825;
+        --color-toolkit-dialog-border: #181825;
+        --color-toolkit-dialog-background: #181825;
+        --color-toolkit-tabs-label-border: #1e1e2e;
+        --color-toolkit-tabs-section-border: #1e1e2e;
+        --color-toolkit-select-background: #313244;
+        --color-toolkit-select-border: #313244;
+        --color-toolkit-select-background-hover: #45475a;
+        --color-toolkit-input-text-font: #cdd6f4;
+        --color-toolkit-checkbox-onoff-off-background: #313244;
+        --color-toolkit-checkbox-onoff-on-background: #313244;
+        --color-toolkit-checkbox-onoff-on-mark-background: #a6e3a1;
+        --color-toolkit-checkbox-onoff-on-mark-color: #181825;
+        --color-toolkit-checkbox-onoff-off-mark-background: #f38ba8;
+        --color-toolkit-checkbox-onoff-off-mark-color: #181825;
+        --color-toolkit-checkbox-label-background: #1e1e2e;
+        --color-toolkit-checkbox-label-border: #181825;
+        --color-toolkit-checkbox-input-border: #58f;
+        --color-toolkit-engine-tooltip-border: #313244;
+        --color-toolkit-engine-tooltip-background: #313244;
+        --color-toolkit-loader-border: rgba(255, 255, 255, 0.2);
+        --color-toolkit-loader-borderleft: rgba(0, 0, 0, 0);
+        --color-doc-code: #f5e0dc;
+        --color-doc-code-background: #181825;
+    }
+    article.result {
+        background-color: var(--color-result-background);
+        border-radius: .75em;
+        padding: .75em;
+        margin: .5em;
+
+    }
+    article.category-images {
+        padding-bottom: 4em;
+
+    }
+}
