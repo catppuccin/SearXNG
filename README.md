@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/SearXNG/assets/SearXNG-Catppuccin.webp"/>
+	<img src="assets/SearXNG-Catppuccin.webp"/>
 </p>
 
 ## Usage
