@@ -17,11 +17,16 @@
 
 ## Usage
 
-1. 
+#### Stylus
+1. Install Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
+2. Enable CSP Patching from Stylus Settings > Advanced.
+3. [Click here to install.](https://github.com/catppuccin/searxng/raw/main/catppuccin.user.css)
+4. Enjoy!. 
 
 ## 💝 Thanks to
 
 - [Sekki](https://github.com/Sekki21956)
+- [Winston](https://github.com/nekowinston)
 
 &nbsp;
 

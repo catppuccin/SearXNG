@@ -163,7 +163,7 @@
         --color-autocomplete-border: $surface0;
         --color-autocomplete-shadow: 0 2px 8px $crust;
         --color-autocomplete-background: $surface0;
-        --color-autocomplete-background-hover: #45475a;
+        --color-autocomplete-background-hover: $surface1;
         --color-answer-font: $text;
         --color-answer-background: $mantle;
         --color-result-background: $mantle;
@@ -202,11 +202,11 @@
         --color-toolkit-tabs-section-border: $base;
         --color-toolkit-select-background: $surface0;
         --color-toolkit-select-border: $surface0;
-        --color-toolkit-select-background-hover: #45475a;
+        --color-toolkit-select-background-hover: $surface1;
         --color-toolkit-input-text-font: $text;
         --color-toolkit-checkbox-onoff-off-background: $surface0;
         --color-toolkit-checkbox-onoff-on-background: $surface0;
-        --color-toolkit-checkbox-onoff-on-mark-background: #a6e3a1;
+        --color-toolkit-checkbox-onoff-on-mark-background: $green;
         --color-toolkit-checkbox-onoff-on-mark-color: $mantle;
         --color-toolkit-checkbox-onoff-off-mark-background: $red;
         --color-toolkit-checkbox-onoff-off-mark-color: $mantle;
