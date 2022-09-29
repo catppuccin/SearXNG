@@ -10,7 +10,6 @@
 @var select lighttheme "Light Variant" ["Latte*", "Frappe", "Macchiato", "Mocha"]
 @var select darktheme "Dark Variant" ["Latte", "Frappe", "Macchiato", "Mocha*"]
 ==/UserStyle== */
-/* Get all Searx instances (no .onion) ty winston curl -L https://searx.space/data/instances.json | jq '.instances | keys | to_entries[] | select(.value | contains(".onion/") | not) | .value' | sed -e 's/\(.*\)/domain(\1),/' */
 @-moz-document
 domain("http://ransack.i2p/"),
 domain("https://darmarit.org/searx/"),
