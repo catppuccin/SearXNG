@@ -9,6 +9,7 @@
 @preprocessor   stylus
 @var select lighttheme "Light Variant" ["Latte*", "Frappe", "Macchiato", "Mocha"]
 @var select darktheme "Dark Variant" ["Latte", "Frappe", "Macchiato", "Mocha*"]
+@var checkbox additions "Additional Tweaks" 0
 ==/UserStyle== */
 @-moz-document url-prefix("http://ransack.i2p/"),
 url-prefix("https://darmarit.org/searx/"),
@@ -349,14 +350,15 @@ url-prefix("https://xo.wtf/") {
         --color-doc-code: var(--ctp-rosewater);
         --color-doc-code-background: var(--ctp-mantle);
     }
-    article.result {
-        background-color: var(--color-result-background);
-        border-radius: .75em;
-        padding: .75em;
-        margin: .5em;
+    if (additions) {
+      article.result {
+          background-color: var(--color-result-background);
+          border-radius: .75em;
+          padding: .75em;
+          margin: .5em;
+      }
+      article.category-images {
+          padding-bottom: 4em;
+      }
     }
-    article.category-images {
-        padding-bottom: 4em;
-    }
-
 }
