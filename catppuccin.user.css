@@ -10,8 +10,7 @@
 @var select lighttheme "Light Variant" ["Latte*", "Frappe", "Macchiato", "Mocha"]
 @var select darktheme "Dark Variant" ["Latte", "Frappe", "Macchiato", "Mocha*"]
 ==/UserStyle== */
-@-moz-document
-domain("http://ransack.i2p/"),
+@-moz-document domain("http://ransack.i2p/"),
 domain("https://darmarit.org/searx/"),
 domain("https://de.xcxc.ml/"),
 domain("https://dynabyte.ca/"),
