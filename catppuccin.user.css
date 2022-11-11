@@ -12,6 +12,7 @@
 @var checkbox additions "Additional Tweaks" 0
 ==/UserStyle== */
 @-moz-document url-prefix("http://ransack.i2p/"),
+url-prefix("http://localhost:8080/"),
 url-prefix("https://darmarit.org/searx/"),
 url-prefix("https://de.xcxc.ml/"),
 url-prefix("https://dynabyte.ca/"),
