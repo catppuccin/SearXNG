@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           SearXNG Catppuccin
-@namespace      github.com/catppuccin/searxng
-@homepageURL    https://github.com/catppuccin/searxng
+@name           SearXNG Catppuccin Localhost:8080
+@namespace      github.com/NamesCode/searxnglocal
+@homepageURL    https://github.com/NamesCode/searxnglocal
 @version        0.2.0
-@description    Soothing pastel theme for SearXNG
+@description    Soothing pastel theme for SearXNG local host
 @author         Catppuccin
-@updateURL      https://github.com/catppuccin/searxng/raw/main/catppuccin.user.css
+@updateURL      https://github.com/NamesCode/searxnglocal/raw/main/catppuccin.user.css
 @preprocessor   stylus
 @var select lighttheme "Light Variant" ["Latte*", "Frappe", "Macchiato", "Mocha"]
 @var select darktheme "Dark Variant" ["Latte", "Frappe", "Macchiato", "Mocha*"]
