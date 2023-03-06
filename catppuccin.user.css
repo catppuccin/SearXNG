@@ -269,7 +269,7 @@ url-prefix("https://xo.wtf/") {
       if (darktheme=="Latte")     { colourscheme(Latte) }
       if (darktheme=="Frappe")    { colourscheme(Frappe) }
       if (darktheme=="Macchiato") { colourscheme(Macchiato) }
-      if (darktheme=="Mocha")     { colourscheme(Mocha) }}
+      if (darktheme=="Mocha")     { colourscheme(Mocha) }
     }
   }
 
